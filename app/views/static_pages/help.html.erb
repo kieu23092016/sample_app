@@ -1,0 +1,9 @@
+
+<%provide(:title, "Help")%>
+<h1><%=t('text.Help')%></h1>
+<p>
+  <%=t('text.Get help on')%> <%=t('text.the')%> <%=t('text.Ruby on Rails Tutorial')%> <%=t('text.at')%><%=t('text.the')%>
+  <%= link_to t('.Rails Tutorial Help page') , Settings.href.rails_help %>.
+  <%=t('text.To get help on')%> <%=t('text.this')%> <%=t('text.sample app')%>, <%=t('text.see')%> <%=t('text.the')%>
+  <%= link_to t('.ruby_help') + ' book', Settings.href.rails_book %>
+</p>

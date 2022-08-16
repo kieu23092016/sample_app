@@ -1,0 +1,9 @@
+
+<%provide(:title, t("text.help"))%>
+<h1><%= t "text.help" %></h1>
+<p>
+  <%=t "text.get_help" %>
+  <%= link_to t("text.rails_help_page"), Settings.href.rails_help %>
+  <%= t "text.get_help_2" %>
+  <%= link_to t(".ruby_book"), Settings.href.rails_book %>
+</p>

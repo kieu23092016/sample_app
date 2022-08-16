@@ -1,0 +1,116 @@
+<?xml version='1.0'?>
+<checkstyle>
+  <file name='app/channels/application_cable/channel.rb'/>
+  <file name='app/channels/application_cable/connection.rb'/>
+  <file name='app/controllers/application_controller.rb'>
+    <error line='3' column='15' severity='info' message='Layout/SpaceAfterColon: Space missing after colon.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceAfterColon'/>
+  </file>
+  <file name='app/controllers/microposts_controller.rb'>
+    <error line='2' column='38' severity='info' message='Style/PercentLiteralDelimiters: `%i`-literals should be delimited by `(` and `)`.' source='com.puppycrawl.tools.checkstyle.Style/PercentLiteralDelimiters'/>
+    <error line='2' column='41' severity='info' message='Layout/SpaceInsidePercentLiteralDelimiters: Do not use spaces inside percent literal delimiters.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsidePercentLiteralDelimiters'/>
+    <error line='2' column='66' severity='info' message='Layout/SpaceInsidePercentLiteralDelimiters: Do not use spaces inside percent literal delimiters.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsidePercentLiteralDelimiters'/>
+    <error line='10' column='2' severity='info' message='Style/EmptyMethod: Put empty method definitions on a single line.' source='com.puppycrawl.tools.checkstyle.Style/EmptyMethod'/>
+    <error line='19' column='2' severity='info' message='Style/EmptyMethod: Put empty method definitions on a single line.' source='com.puppycrawl.tools.checkstyle.Style/EmptyMethod'/>
+    <error line='28' column='19' severity='info' message='Layout/SpaceBeforeBlockBraces: Space detected to the left of {.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceBeforeBlockBraces'/>
+    <error line='28' column='21' severity='info' message='Layout/SpaceInsideBlockBraces: Space inside { detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideBlockBraces'/>
+    <error line='28' column='80' severity='info' message='Layout/LineLength: Line is too long. [108/80]' source='com.puppycrawl.tools.checkstyle.Layout/LineLength'/>
+    <error line='28' column='106' severity='info' message='Layout/SpaceInsideBlockBraces: Space inside } detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideBlockBraces'/>
+    <error line='29' column='19' severity='info' message='Layout/SpaceBeforeBlockBraces: Space detected to the left of {.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceBeforeBlockBraces'/>
+    <error line='29' column='21' severity='info' message='Layout/SpaceInsideBlockBraces: Space inside { detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideBlockBraces'/>
+    <error line='29' column='74' severity='info' message='Layout/SpaceInsideBlockBraces: Space inside } detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideBlockBraces'/>
+    <error line='31' column='19' severity='info' message='Layout/SpaceBeforeBlockBraces: Space detected to the left of {.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceBeforeBlockBraces'/>
+    <error line='31' column='21' severity='info' message='Layout/SpaceInsideBlockBraces: Space inside { detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideBlockBraces'/>
+    <error line='31' column='64' severity='info' message='Layout/SpaceInsideBlockBraces: Space inside } detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideBlockBraces'/>
+    <error line='32' column='19' severity='info' message='Layout/SpaceBeforeBlockBraces: Space detected to the left of {.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceBeforeBlockBraces'/>
+    <error line='32' column='21' severity='info' message='Layout/SpaceInsideBlockBraces: Space inside { detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideBlockBraces'/>
+    <error line='32' column='80' severity='info' message='Layout/LineLength: Line is too long. [85/80]' source='com.puppycrawl.tools.checkstyle.Layout/LineLength'/>
+    <error line='32' column='83' severity='info' message='Layout/SpaceInsideBlockBraces: Space inside } detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideBlockBraces'/>
+    <error line='41' column='19' severity='info' message='Layout/SpaceBeforeBlockBraces: Space detected to the left of {.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceBeforeBlockBraces'/>
+    <error line='41' column='21' severity='info' message='Layout/SpaceInsideBlockBraces: Space inside { detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideBlockBraces'/>
+    <error line='41' column='80' severity='info' message='Layout/LineLength: Line is too long. [108/80]' source='com.puppycrawl.tools.checkstyle.Layout/LineLength'/>
+    <error line='41' column='106' severity='info' message='Layout/SpaceInsideBlockBraces: Space inside } detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideBlockBraces'/>
+    <error line='42' column='19' severity='info' message='Layout/SpaceBeforeBlockBraces: Space detected to the left of {.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceBeforeBlockBraces'/>
+    <error line='42' column='21' severity='info' message='Layout/SpaceInsideBlockBraces: Space inside { detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideBlockBraces'/>
+    <error line='42' column='69' severity='info' message='Layout/SpaceInsideBlockBraces: Space inside } detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideBlockBraces'/>
+    <error line='44' column='19' severity='info' message='Layout/SpaceBeforeBlockBraces: Space detected to the left of {.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceBeforeBlockBraces'/>
+    <error line='44' column='21' severity='info' message='Layout/SpaceInsideBlockBraces: Space inside { detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideBlockBraces'/>
+    <error line='44' column='65' severity='info' message='Layout/SpaceInsideBlockBraces: Space inside } detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideBlockBraces'/>
+    <error line='45' column='19' severity='info' message='Layout/SpaceBeforeBlockBraces: Space detected to the left of {.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceBeforeBlockBraces'/>
+    <error line='45' column='21' severity='info' message='Layout/SpaceInsideBlockBraces: Space inside { detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideBlockBraces'/>
+    <error line='45' column='80' severity='info' message='Layout/LineLength: Line is too long. [85/80]' source='com.puppycrawl.tools.checkstyle.Layout/LineLength'/>
+    <error line='45' column='83' severity='info' message='Layout/SpaceInsideBlockBraces: Space inside } detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideBlockBraces'/>
+    <error line='55' column='17' severity='info' message='Layout/SpaceBeforeBlockBraces: Space detected to the left of {.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceBeforeBlockBraces'/>
+    <error line='55' column='19' severity='info' message='Layout/SpaceInsideBlockBraces: Space inside { detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideBlockBraces'/>
+    <error line='55' column='80' severity='info' message='Layout/LineLength: Line is too long. [97/80]' source='com.puppycrawl.tools.checkstyle.Layout/LineLength'/>
+    <error line='55' column='95' severity='info' message='Layout/SpaceInsideBlockBraces: Space inside } detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideBlockBraces'/>
+    <error line='56' column='17' severity='info' message='Layout/SpaceBeforeBlockBraces: Space detected to the left of {.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceBeforeBlockBraces'/>
+    <error line='56' column='19' severity='info' message='Layout/SpaceInsideBlockBraces: Space inside { detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideBlockBraces'/>
+    <error line='56' column='36' severity='info' message='Layout/SpaceInsideBlockBraces: Space inside } detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideBlockBraces'/>
+    <error line='62' column='0' severity='info' message='Layout/IndentationWidth: Use 2 (not 4) spaces for indentation.' source='com.puppycrawl.tools.checkstyle.Layout/IndentationWidth'/>
+    <error line='62' column='4' severity='info' message='Layout/IndentationConsistency: Inconsistent indentation detected.' source='com.puppycrawl.tools.checkstyle.Layout/IndentationConsistency'/>
+    <error line='67' column='0' severity='info' message='Layout/IndentationWidth: Use 2 (not 4) spaces for indentation.' source='com.puppycrawl.tools.checkstyle.Layout/IndentationWidth'/>
+    <error line='67' column='4' severity='info' message='Layout/IndentationConsistency: Inconsistent indentation detected.' source='com.puppycrawl.tools.checkstyle.Layout/IndentationConsistency'/>
+  </file>
+  <file name='app/controllers/users_controller.rb'>
+    <error line='2' column='33' severity='info' message='Style/PercentLiteralDelimiters: `%i`-literals should be delimited by `(` and `)`.' source='com.puppycrawl.tools.checkstyle.Style/PercentLiteralDelimiters'/>
+    <error line='2' column='36' severity='info' message='Layout/SpaceInsidePercentLiteralDelimiters: Do not use spaces inside percent literal delimiters.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsidePercentLiteralDelimiters'/>
+    <error line='2' column='61' severity='info' message='Layout/SpaceInsidePercentLiteralDelimiters: Do not use spaces inside percent literal delimiters.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsidePercentLiteralDelimiters'/>
+    <error line='10' column='2' severity='info' message='Style/EmptyMethod: Put empty method definitions on a single line.' source='com.puppycrawl.tools.checkstyle.Style/EmptyMethod'/>
+    <error line='19' column='2' severity='info' message='Style/EmptyMethod: Put empty method definitions on a single line.' source='com.puppycrawl.tools.checkstyle.Style/EmptyMethod'/>
+    <error line='28' column='19' severity='info' message='Layout/SpaceBeforeBlockBraces: Space detected to the left of {.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceBeforeBlockBraces'/>
+    <error line='28' column='21' severity='info' message='Layout/SpaceInsideBlockBraces: Space inside { detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideBlockBraces'/>
+    <error line='28' column='80' severity='info' message='Layout/LineLength: Line is too long. [93/80]' source='com.puppycrawl.tools.checkstyle.Layout/LineLength'/>
+    <error line='28' column='91' severity='info' message='Layout/SpaceInsideBlockBraces: Space inside } detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideBlockBraces'/>
+    <error line='29' column='19' severity='info' message='Layout/SpaceBeforeBlockBraces: Space detected to the left of {.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceBeforeBlockBraces'/>
+    <error line='29' column='21' severity='info' message='Layout/SpaceInsideBlockBraces: Space inside { detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideBlockBraces'/>
+    <error line='29' column='69' severity='info' message='Layout/SpaceInsideBlockBraces: Space inside } detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideBlockBraces'/>
+    <error line='31' column='19' severity='info' message='Layout/SpaceBeforeBlockBraces: Space detected to the left of {.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceBeforeBlockBraces'/>
+    <error line='31' column='21' severity='info' message='Layout/SpaceInsideBlockBraces: Space inside { detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideBlockBraces'/>
+    <error line='31' column='64' severity='info' message='Layout/SpaceInsideBlockBraces: Space inside } detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideBlockBraces'/>
+    <error line='32' column='19' severity='info' message='Layout/SpaceBeforeBlockBraces: Space detected to the left of {.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceBeforeBlockBraces'/>
+    <error line='32' column='21' severity='info' message='Layout/SpaceInsideBlockBraces: Space inside { detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideBlockBraces'/>
+    <error line='32' column='78' severity='info' message='Layout/SpaceInsideBlockBraces: Space inside } detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideBlockBraces'/>
+    <error line='41' column='19' severity='info' message='Layout/SpaceBeforeBlockBraces: Space detected to the left of {.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceBeforeBlockBraces'/>
+    <error line='41' column='21' severity='info' message='Layout/SpaceInsideBlockBraces: Space inside { detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideBlockBraces'/>
+    <error line='41' column='80' severity='info' message='Layout/LineLength: Line is too long. [93/80]' source='com.puppycrawl.tools.checkstyle.Layout/LineLength'/>
+    <error line='41' column='91' severity='info' message='Layout/SpaceInsideBlockBraces: Space inside } detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideBlockBraces'/>
+    <error line='42' column='19' severity='info' message='Layout/SpaceBeforeBlockBraces: Space detected to the left of {.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceBeforeBlockBraces'/>
+    <error line='42' column='21' severity='info' message='Layout/SpaceInsideBlockBraces: Space inside { detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideBlockBraces'/>
+    <error line='42' column='64' severity='info' message='Layout/SpaceInsideBlockBraces: Space inside } detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideBlockBraces'/>
+    <error line='44' column='19' severity='info' message='Layout/SpaceBeforeBlockBraces: Space detected to the left of {.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceBeforeBlockBraces'/>
+    <error line='44' column='21' severity='info' message='Layout/SpaceInsideBlockBraces: Space inside { detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideBlockBraces'/>
+    <error line='44' column='65' severity='info' message='Layout/SpaceInsideBlockBraces: Space inside } detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideBlockBraces'/>
+    <error line='45' column='19' severity='info' message='Layout/SpaceBeforeBlockBraces: Space detected to the left of {.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceBeforeBlockBraces'/>
+    <error line='45' column='21' severity='info' message='Layout/SpaceInsideBlockBraces: Space inside { detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideBlockBraces'/>
+    <error line='45' column='78' severity='info' message='Layout/SpaceInsideBlockBraces: Space inside } detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideBlockBraces'/>
+    <error line='55' column='17' severity='info' message='Layout/SpaceBeforeBlockBraces: Space detected to the left of {.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceBeforeBlockBraces'/>
+    <error line='55' column='19' severity='info' message='Layout/SpaceInsideBlockBraces: Space inside { detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideBlockBraces'/>
+    <error line='55' column='80' severity='info' message='Layout/LineLength: Line is too long. [87/80]' source='com.puppycrawl.tools.checkstyle.Layout/LineLength'/>
+    <error line='55' column='85' severity='info' message='Layout/SpaceInsideBlockBraces: Space inside } detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideBlockBraces'/>
+    <error line='56' column='17' severity='info' message='Layout/SpaceBeforeBlockBraces: Space detected to the left of {.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceBeforeBlockBraces'/>
+    <error line='56' column='19' severity='info' message='Layout/SpaceInsideBlockBraces: Space inside { detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideBlockBraces'/>
+    <error line='56' column='36' severity='info' message='Layout/SpaceInsideBlockBraces: Space inside } detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideBlockBraces'/>
+    <error line='62' column='0' severity='info' message='Layout/IndentationWidth: Use 2 (not 4) spaces for indentation.' source='com.puppycrawl.tools.checkstyle.Layout/IndentationWidth'/>
+    <error line='62' column='4' severity='info' message='Layout/IndentationConsistency: Inconsistent indentation detected.' source='com.puppycrawl.tools.checkstyle.Layout/IndentationConsistency'/>
+    <error line='67' column='0' severity='info' message='Layout/IndentationWidth: Use 2 (not 4) spaces for indentation.' source='com.puppycrawl.tools.checkstyle.Layout/IndentationWidth'/>
+    <error line='67' column='4' severity='info' message='Layout/IndentationConsistency: Inconsistent indentation detected.' source='com.puppycrawl.tools.checkstyle.Layout/IndentationConsistency'/>
+  </file>
+  <file name='app/helpers/application_helper.rb'/>
+  <file name='app/helpers/microposts_helper.rb'/>
+  <file name='app/helpers/users_helper.rb'/>
+  <file name='app/jobs/application_job.rb'>
+    <error line='5' column='80' severity='info' message='Layout/LineLength: Line is too long. [82/80]' source='com.puppycrawl.tools.checkstyle.Layout/LineLength'/>
+  </file>
+  <file name='app/mailers/application_mailer.rb'>
+    <error line='2' column='16' severity='info' message='Style/StringLiterals: Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.' source='com.puppycrawl.tools.checkstyle.Style/StringLiterals'/>
+    <error line='3' column='9' severity='info' message='Style/StringLiterals: Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.' source='com.puppycrawl.tools.checkstyle.Style/StringLiterals'/>
+  </file>
+  <file name='app/models/application_record.rb'/>
+  <file name='app/models/micropost.rb'>
+    <error line='3' column='31' severity='info' message='Layout/SpaceInsideHashLiteralBraces: Space inside { detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideHashLiteralBraces'/>
+    <error line='3' column='44' severity='info' message='Layout/SpaceInsideHashLiteralBraces: Space inside } detected.' source='com.puppycrawl.tools.checkstyle.Layout/SpaceInsideHashLiteralBraces'/>
+  </file>
+  <file name='app/models/user.rb'>
+    <error line='2' column='2' severity='info' message='Rails/HasManyOrHasOneDependent: Specify a `:dependent` option.' source='com.puppycrawl.tools.checkstyle.Rails/HasManyOrHasOneDependent'/>
+  </file>
+</checkstyle>

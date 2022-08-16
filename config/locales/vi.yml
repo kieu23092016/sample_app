@@ -1,0 +1,32 @@
+vi:
+  text:
+    home: Trang chủ
+    help: Hỗ trợ
+    login: Đăng nhập
+    about: Về chúng tôi
+    contact: Liên hệ
+    news: Bài viết mới
+    rails_tutor: Hướng dẫn sử dụng Ruby on Rails
+    michael_hartl: Michael Harl
+    welcome_quote: Chào mừng đến với Sample App
+    home_page_intro: Đây là trang chủ của
+    rail_sample_app: Ứng dụng Hướng dẫn sử dụng Ruby on Rails
+    sign_up_now: Đăng ký ngay
+    get_help: Nhận hỗ trợ về Ruby On Rails Tutorial tại
+    rails_help_page: trang web Hỗ trợ hướng dẫn sử dụng Rails
+    get_help_2: . Nhận hỗ trợ về ứng dụng, xem
+    ruby_book: Ruby Help book
+    the: ''
+    by:  bởi
+    the_u: ''
+    part_of: một phần
+    learn_enough: Learn Enough
+    family_tutor: hướng dẫn cha, là một
+    book: cuốn sách
+    screencast_series: chuỗi bài học
+    teach_web: dạy phát triển web với Ruby on Rails. Đây là ứng dụng cho hướng dẫn này.
+    Sign up now!:
+    now: ngay
+    Ruby on Rails Tutorial sample application: Ứng dụng Hướng dẫn sử dụng Ruby on Rails
+    contact_page: trang web liên hệ
+    about_us: Về  ứng dụng tại

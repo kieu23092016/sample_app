@@ -1,0 +1,13 @@
+<% provide(:title, t("text.about") ) %>
+<h1><%= t "text.about" %></h1>
+<p>
+  <%= t "text.the_u" %>
+  <em><%= link_to t("text.rails_tutor"), Settings.href.rails_tutorial %></em>,
+  <%= t "text.part_of" %>
+  <%= link_to "learn_enough", Settings.href.learn_enough %>
+  <%= t "text.family_tutor" %>
+  <%= link_to t("text.book") , Settings.href.rails_book %>
+  <%= t "text.and" %>
+  <%= link_to t("text.screencast_series"), Settings.href.screen_cast %>
+  <%= t "text.teach_web" %>
+</p>

@@ -1,0 +1,11 @@
+<% provide(:title, "About") %>
+<h1><%=t('text.About')%></h1>
+<p>
+  <%=t('text.The')%> <em><%= link_to t('text.Ruby on Rails Tutorial') , Settings.href.rails_tutorial %></em>, <%=t('text.part of')%> <%=t('text.the')%>
+  <%= link_to "Learn Enough" , Settings.href.learn_enough %>
+  <%=t('text.family of turtorials')%>, <%=t('text.is')%>  <%=t('text.a')%>
+  <%= link_to t('text.book') , Settings.href.rails_book %>
+  <%=t('text.and')%>
+  <%= link_to t('text.screencast series') , Settings.href.screen_cast %>
+  <%=t('text.to teach')%> <%=t('text.web development')%> <%=t('text.with')%> Ruby on Rails. <%=t('text.This is')%>  <%=t('text.the')%> <%=t('text.sample app')%>  <%=t('text.for')%> <%=t('text.the')%>  <%=t('text.turtorial')%>.
+</p>

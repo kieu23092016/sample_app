@@ -8,3 +8,7 @@ href:
   contact_page: https://www.railstutorial.org/contact
   rails_help: https://www.railstutorial.org/help
   rails_page: https://rubyonrails.org/
+variable_length:
+  name: 50
+  email: 255
+  password: 6

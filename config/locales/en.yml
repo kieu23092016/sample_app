@@ -1,0 +1,29 @@
+en:
+  text:
+    home: Home
+    help: Help
+    login: Login
+    about: About
+    contact: Contact
+    news: News
+    rails_tutor: Ruby on Rails Tutorial
+    michael_hartl: Michael Harl
+    the: The
+    by:  by
+    welcome_quote: Welcome to The Sample App
+    home_page_intro: This is the home page for the
+    rail_sample_app: Ruby on Rails Tutorial sample application
+    sign_up_now: Sign up now!
+    get_help: Get help on The Ruby on Rails Tutorial at the
+    rails_help_page:  Rails Tutorial Help page
+    get_help_2: . To get help on this sample app, see the
+    ruby_book: Ruby Help book
+    the_u: The
+    part_of: part of the
+    learn_enough: Learn Enough
+    family_tutor:  family of turtorials, is a
+    book: book
+    screencast_series: screencast series
+    teach_web: to teach web development with Ruby on Rails. This is The sample app for the turtorial.
+    contact_page: contact page
+    about_us: About the sample app

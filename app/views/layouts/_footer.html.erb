@@ -1,0 +1,15 @@
+<footer class="footer">
+  <small>
+    <%= t "text.the" %> <%= link_to t("text.rails_tutor") , Settings.href.rails_tutorial %>
+    <%= t "text.by" %> <%= link_to t("text.michael_hartl"), Settings.href.michael_hartl %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to "English", locale: :en %></li>
+      <li><%= link_to "Tiếng Việt", locale: :vi %></li>
+      <li><%= link_to t("text.about"), about_path %></li>
+      <li><%= link_to t("text.contact"), contact_path %></li>
+      <li><%= link_to t("text.news"), Settings.href.rails_news %></li>
+    </ul>
+  </nav>
+</footer>

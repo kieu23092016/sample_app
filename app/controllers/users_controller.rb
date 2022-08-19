@@ -2,6 +2,7 @@ class UsersController < ApplicationController
   def show
     @user = User.find_by(id: params[:id])
     return if @user
+
     flash[:danger] = t "text.user_not_found"
     redirect_to root_path
   end
@@ -16,12 +17,15 @@ class UsersController < ApplicationController
       flash[:success] = t "text.welcome_quote"
       redirect_to @user
     else
-      flash[:danger] = t "text.sign_up_failed"
+      flash.now[:danger] = t "text.sign_up_failed"
       render :new
     end
   end
+
   private
+
   def user_params
-    params.require(:user).permit(:name, :email, :password,:password_confirmation)
+    params.require(:user).permit(:name, :email, :password,
+                                 :password_confirmation)
   end
 end

@@ -12,6 +12,11 @@ vi:
     home_page_intro: Đây là trang chủ của
     rail_sample_app: Ứng dụng Hướng dẫn sử dụng Ruby on Rails
     sign_up_now: Đăng ký ngay
+    sign_up: Đăng ký
+    name: Họ tên
+    password: Mật khẩu
+    confirmation: Nhập lại mật khẩu
+    create_account: Tạo tài khoản
     get_help: Nhận hỗ trợ về Ruby On Rails Tutorial tại
     rails_help_page: trang web Hỗ trợ hướng dẫn sử dụng Rails
     get_help_2: . Nhận hỗ trợ về ứng dụng, xem
@@ -25,9 +30,11 @@ vi:
     book: cuốn sách
     screencast_series: chuỗi bài học
     teach_web: dạy phát triển web với Ruby on Rails. Đây là ứng dụng cho hướng dẫn này.
-    Sign up now!:
-    now: ngay
     Ruby on Rails Tutorial sample application: Ứng dụng Hướng dẫn sử dụng Ruby on Rails
     contact_page: trang web liên hệ
     about_us: Về  ứng dụng tại
     sample_app: Sample App
+    error: lỗi
+    error_noti: Biểu mẫu chứa
+    user_not_found: Không tìm thấy người dùng
+    sign_up_failed: Đăng ký không thành công

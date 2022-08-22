@@ -12,3 +12,5 @@ variable_length:
   name: 50
   email: 255
   password: 6
+size:
+  gravatar: 80

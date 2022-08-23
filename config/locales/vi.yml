@@ -38,3 +38,11 @@ vi:
     error_noti: Biểu mẫu chứa
     user_not_found: Không tìm thấy người dùng
     sign_up_failed: Đăng ký không thành công
+    login: Đăng nhập
+    new_user: Chưa có tài khoản?
+    invalid_message: Tên đăng nhập/ mật khẩu sai
+    users: Người dùng
+    profile: Trang cá nhân
+    settings: Cài đặt
+    logout: Đăng xuất
+    account: Tài khoản

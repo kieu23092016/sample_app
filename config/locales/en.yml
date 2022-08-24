@@ -45,3 +45,16 @@ en:
     settings: Settings
     logout: Log out
     account: Account
+    remember_me: Remember me on this computer
+    edit_user: Edit User
+    save_changes: Save changes
+    change: Change
+    success_update: Profile is updated successful
+    fail_update: Update fail
+    login_required: Please log in.
+    users_list: All user
+    delete: Delete
+    confirm: You sure?
+    success_delete: User deleted
+    fail_delete: Can't delete user
+    unauthorized_msg: You do not have permission to use this function.

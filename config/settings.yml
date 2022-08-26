@@ -8,9 +8,12 @@ href:
   contact_page: https://www.railstutorial.org/contact
   rails_help: https://www.railstutorial.org/help
   rails_page: https://rubyonrails.org/
+  gavatar: https://gravatar.com/emails
 variable_length:
   name: 50
   email: 255
   password: 6
 size:
   gravatar: 80
+pagination:
+  user_per_page: 30

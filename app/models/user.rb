@@ -13,6 +13,7 @@ class User < ApplicationRecord
     length: {minimum: Settings.variable_length.password}
   has_secure_password
 
+  scope :order_by_update, ->{order(updated_at: :desc)}
   class << self
     def digest string
       cost = ActiveModel::SecurePassword.min_cost ? BCrypt::Engine::MIN_COST : BCrypt::Engine.cost
@@ -31,6 +32,7 @@ class User < ApplicationRecord
 
   def authenticated? remember_token
     return false unless remember_digest
+
     BCrypt::Password.new(remember_digest).is_password?(remember_token)
   end
 

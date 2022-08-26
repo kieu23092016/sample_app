@@ -47,3 +47,15 @@ vi:
     logout: Đăng xuất
     account: Tài khoản
     remember_me: Lưu thông tin trên máy tính này
+    edit_user: Chỉnh sửa thông tin cá nhân
+    save_changes: Lưu thay đổi
+    change: Thay đổi
+    success_update: Thông tin đã được cập nhật
+    fail_update: Cập nhật không thành công
+    login_required: Yêu cầu đăng nhập để thực hiện
+    users_list: Danh sách người dùng
+    delete: Xóa
+    confirm: Bạn chắc chưa?
+    success_delete: Xóa thành công người dùng
+    fail_delete: Xóa người dùng không thành công
+    unauthorized_msg: Bạn không có quyền sử dụng chức năng này.

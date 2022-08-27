@@ -4,7 +4,10 @@ class UsersController < ApplicationController
   before_action :correct_user, only: %i(edit update)
   before_action :admin_user, only: %i(destroy)
 
-  def show; end
+  def show
+    @pagy, @microposts = pagy @user.microposts.order_by_created,
+                              items: Settings.pagination.user_per_page
+  end
 
   def new
     @user = User.new

@@ -1,0 +1,4 @@
+<h1><%= t "text.sample_app" %></h1>
+<p><%= t "text.hi" %> <%= @user.name %>,</p>
+<p><%= t "text.activation_content" %></p>
+<%= edit_account_activation_url(id: @user.activation_token,email: @user.email) %>

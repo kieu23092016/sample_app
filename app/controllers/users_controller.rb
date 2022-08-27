@@ -13,7 +13,8 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params)
     if @user.save
-      flash[:success] = t "text.welcome_quote"
+      @user.send_activation_email
+      flash[:info] = t "text.activation_msg"
       redirect_to @user
     else
       flash.now[:danger] = t "text.sign_up_failed"
@@ -46,7 +47,6 @@ class UsersController < ApplicationController
       flash[:danger] = t("text.fail_delete")
     end
   end
-
   private
 
   def user_params
@@ -74,5 +74,12 @@ class UsersController < ApplicationController
 
     flash[:danger] = t "text.user_not_found"
     redirect_to root_path
+  end
+
+  def logged_in_user
+    return logged_in?
+    store_location
+    flash[:danger] = t("text.login_required")
+    redirect_to login_url
   end
 end

@@ -49,12 +49,18 @@ en:
     edit_user: Edit User
     save_changes: Save changes
     change: Change
-    success_update: Profile is updated successful
-    fail_update: Update fail
+    success_update: Profile updated
     login_required: Please log in.
     users_list: All user
     delete: Delete
     confirm: You sure?
     success_delete: User deleted
-    fail_delete: Can't delete user
-    unauthorized_msg: You do not have permission to use this function.
+    failed_delete: Failed to delete user
+    sucess_activated_account: Account activated!
+    invalid_activate_link: Invalid activation link
+    not_activated_account_msg: Account not activated. Check your email for the activation link.
+    activation_msg: Please check your email to activate your account.
+    activation_subj: Account activation
+    hi: Hi
+    activation_content: Welcome to the Sample App! Click on the link below to activate your account
+    activate_link: Activate

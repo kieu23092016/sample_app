@@ -51,11 +51,18 @@ vi:
     save_changes: Lưu thay đổi
     change: Thay đổi
     success_update: Thông tin đã được cập nhật
-    fail_update: Cập nhật không thành công
     login_required: Yêu cầu đăng nhập để thực hiện
     users_list: Danh sách người dùng
     delete: Xóa
     confirm: Bạn chắc chưa?
     success_delete: Xóa thành công người dùng
-    fail_delete: Xóa người dùng không thành công
+    failed_delete: Xóa người dùng không thành công
     unauthorized_msg: Bạn không có quyền sử dụng chức năng này.
+    sucess_activated_account: Kích hoạt tài khoản thành công
+    invalid_activate_link: Link kích hoạt không hợp lệ
+    not_activated_account_msg: Tài khoản chưa được kích hoạt. Kiểm tra email để kích hoạt tài khoản với link.
+    activation_msg: Làm ơn kiểm tra email để kích hoạt tài khoản của bạn
+    activation_subj: Kích hoạt tài khoản
+    hi: Chào
+    activation_content: Chào mừng tới Sample App! Ấn vào link dưới đây để kích hoạt tài khoản
+    activate_link: Link kích hoạt

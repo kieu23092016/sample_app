@@ -66,3 +66,16 @@ vi:
     hi: Chào
     activation_content: Chào mừng tới Sample App! Ấn vào link dưới đây để kích hoạt tài khoản
     activate_link: Link kích hoạt
+    password_reset_noti: Làm ơn kiểm tra email để lấy thông tin cập nhật lại mật khẩu
+    email_notfound: Email không tồn tại
+    empty_error: không được để trống
+    reset_password_noti: Mật khẩu đã được cập nhật
+    reset_password_expired: Hết hạn cập nhật mật khẩu
+    forgot_password: Quên mật khẩu?
+    submit:  Kiểm tra
+    user_notfound: Không tìm thấy người dùng
+    reset_password: Khôi phục mật khẩu
+    update_password: Cập nhật mật khẩu
+    password_link_click: Để khôi phục mật khẩu, nhấn vào link dưới đây
+    expire_content: Link này sẽ hết hạn trong vòng 2 giờ.
+    ignore_msg: Nếu bạn không yêu cầu khôi phục mật khẩu, bỏ qua email này. Mật khẩu của bạn sẽ được giữ nguyên.

@@ -35,7 +35,7 @@ class UsersController < ApplicationController
   end
 
   def index
-    @pagy, @users = pagy User.order_by_update,
+    @pagy, @users = pagy User.activated_accounts.order_by_update,
                          items: Settings.pagination.user_per_page
   end
 
@@ -47,6 +47,7 @@ class UsersController < ApplicationController
       flash[:danger] = t("text.fail_delete")
     end
   end
+
   private
 
   def user_params
@@ -77,7 +78,8 @@ class UsersController < ApplicationController
   end
 
   def logged_in_user
-    return logged_in?
+    return if logged_in?
+
     store_location
     flash[:danger] = t("text.login_required")
     redirect_to login_url

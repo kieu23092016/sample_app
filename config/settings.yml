@@ -17,3 +17,5 @@ size:
   gravatar: 80
 pagination:
   user_per_page: 30
+password_reset:
+  expired_time: 2

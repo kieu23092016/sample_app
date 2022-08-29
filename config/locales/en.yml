@@ -64,3 +64,16 @@ en:
     hi: Hi
     activation_content: Welcome to the Sample App! Click on the link below to activate your account
     activate_link: Activate
+    password_reset_noti: Email sent with password reset instructions
+    email_notfound: Email address not found
+    empty_error: can't be empty
+    reset_password_noti: Password has been reset.
+    reset_password_expired: Password reset has expired.
+    forgot_password: Forgot password?
+    submit: Submit
+    user_notfound: User not found
+    reset_password: Reset password
+    update_password: Cập nhật mật khẩu
+    password_link_click: To reset your password click the link below
+    expire_content: This link will expire in two hours.
+    ignore_msg: If you did not request your password to be reset, please ignore this email and your password will stay as it is.

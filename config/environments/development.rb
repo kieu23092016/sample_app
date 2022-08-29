@@ -40,8 +40,8 @@ Rails.application.configure do
   # Local server
   config.action_mailer.default_url_options = { host: host, protocol: "http" }
   config.action_mailer.smtp_settings = {
-    :user_name => 'ec4fa021ac7355',
-    :password => '6d8dff2ef847a8',
+    :user_name => ENV["GMAIL_USERNAME"],
+    :password => ENV["GMAIL_PASSWORD"],
     :address => "smtp.mailtrap.io",
     :domain => "smtp.mailtrap.io",
     :port => "2525",

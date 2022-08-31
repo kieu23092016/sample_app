@@ -87,3 +87,11 @@ en:
     micropost_feed: Micropost feed
     failed_micropost_delete: Micropost deleted failed
     image_valid_form: must be a valid image format
+    following: following
+    followers: followers
+    follow: Follow
+    unfollow: Unfollow
+    micropost: Micropost
+    followersU: Followers
+    followingU: Following
+    relationship_notfound: Relationship not found

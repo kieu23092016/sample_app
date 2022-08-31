@@ -72,14 +72,6 @@ class UsersController < ApplicationController
     redirect_to(root_url)
   end
 
-  def find_by_id
-    @user = User.find_by(id: params[:id])
-    return if @user
-
-    flash[:danger] = t "text.user_not_found"
-    redirect_to root_path
-  end
-
   def logged_in_user
     return if logged_in?
 

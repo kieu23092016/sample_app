@@ -15,7 +15,7 @@ variable_length:
   password: 6
   micropost: 140
 size:
-  gravatar: 80
+  gravatar: 50
   image: 300
   image_size: 5
 pagination:

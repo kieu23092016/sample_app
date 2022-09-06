@@ -79,3 +79,15 @@ vi:
     password_link_click: Để khôi phục mật khẩu, nhấn vào link dưới đây
     expire_content: Link này sẽ hết hạn trong vòng 2 giờ.
     ignore_msg: Nếu bạn không yêu cầu khôi phục mật khẩu, bỏ qua email này. Mật khẩu của bạn sẽ được giữ nguyên.
+    success_create_micropost: Thêm bài đăng thành công
+    deleted_micropost: Bài đăng đã bị xóa
+    posted: Đăng
+    ago: trước
+    compose_mircropost: Đăng bài viết mới nào...
+    file_size_alert: Kích thước file tối đa là 5 MB. Chọn file nhỏ hơn
+    file_size: phải nhỏ hơn 5 MB.
+    view_profile: Trang cá nhân
+    micropost: Bài đăng
+    micropost_feed: Danh sách bài đăng
+    failed_micropost_delete: Xóa bài viết không thành công
+    image_valid_form: phải là định dạng ảnh

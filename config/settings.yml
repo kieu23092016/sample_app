@@ -13,9 +13,18 @@ variable_length:
   name: 50
   email: 255
   password: 6
+  micropost: 140
 size:
   gravatar: 80
+  image: 300
+  image_size: 5
 pagination:
   user_per_page: 30
+  micro_per_page: 30
 password_reset:
   expired_time: 2
+format:
+  image: ["image/jpeg", "image/gif", "image/png"]
+  accept_image: "image/jpeg,image/gif,image/png"
+unit:
+  byte: 1024

@@ -77,3 +77,13 @@ en:
     password_link_click: To reset your password click the link below
     expire_content: This link will expire in two hours.
     ignore_msg: If you did not request your password to be reset, please ignore this email and your password will stay as it is.
+    success_create_micropost: Micropost is created successfully.
+    deleted_micropost: Micropost is deleted
+    posted: Posted
+    ago: ago
+    compose_mircropost: Compose new micropost...
+    file_size_alert: Maximum file size is 5MB. Please choose a smaller file.
+    file_size: less than 5 MB.
+    micropost_feed: Micropost feed
+    failed_micropost_delete: Micropost deleted failed
+    image_valid_form: must be a valid image format

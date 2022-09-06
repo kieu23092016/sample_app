@@ -1,12 +1,29 @@
 <% provide(:title, t("text.home")) %>
+<% if logged_in? %>
+  <div class="row">
+    <aside class="col-md-4">
+      <section class="user_info">
+        <%= render "shared/user_info" %>
+      </section>
+      <section class="micropost_form">
+        <%= render "shared/micropost_form" %>
+      </section>
+    </aside>
 
-<div class="center jumbotron">
-  <h1><%= t "text.welcome_quote" %></h1>
-  <h2>
-    <%= t "text.home_page_intro" %>
-    <%= link_to t("text.rail_sample_app"), Settings.href.rails_page %>
-  </h2>
-  <%= link_to t("text.sign_up_now"), signup_path, class: "btn btn-lg btn-primary" %>
-</div>
-<%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200px"),Settings.href.rails_page %>
-<%= link_to image_tag("kitten.jpg", alt: "Kitten", width: "200px"),"#" %>
+    <div class="col-md-8">
+      <h3><%= t("text.micropost_feed") %></h3>
+      <%= render "shared/feed" %>
+    </div>
+  </div>
+<% else %>
+  <div class="center jumbotron">
+    <h1><%= t "text.welcome_quote" %></h1>
+    <h2>
+      <%= t "text.home_page_intro" %>
+      <%= link_to t("text.rail_sample_app"), Settings.href.rails_page %>
+    </h2>
+    <%= link_to t("text.sign_up_now"), signup_path, class: "btn btn-lg btn-primary" %>
+  </div>
+  <%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200px"),Settings.href.rails_page %>
+  <%= link_to image_tag("kitten.jpg", alt: "Kitten", width: "200px"),"#" %>
+<% end %>

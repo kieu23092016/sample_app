@@ -91,3 +91,11 @@ vi:
     micropost_feed: Danh sách bài đăng
     failed_micropost_delete: Xóa bài viết không thành công
     image_valid_form: phải là định dạng ảnh
+    following: đang theo dõi
+    followers: người theo dõi
+    follow: Theo dõi
+    unfollow: Bỏ theo dõi
+    micropost: Bài viết
+    followersU: Người theo dõi
+    followingU: Dang theo dõi
+    relationship_notfound: Không tìm thấy quan hệ
